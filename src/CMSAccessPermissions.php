@@ -2,10 +2,10 @@
 
 namespace Fromholdio\CMSAccessPermissions;
 
-use SilverStripe\ORM\DataExtension;
+use SilverStripe\Core\Extension;
 use SilverStripe\Security\Permission;
 
-class CMSAccessPermissions extends DataExtension
+class CMSAccessPermissions extends Extension
 {
     public function canCreate($member)
     {
